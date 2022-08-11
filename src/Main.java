@@ -25,7 +25,7 @@ public class Main {
         int currentYear = 2022;
         int start = currentYear - 200;
         int end = currentYear + 100;
-        for(int d = start; d>=start&&d<=end; d=d+79)
+        for(int d = start; d<=end; d++)
         if (d%79==0)
         {
             System.out.println(d+" ");
