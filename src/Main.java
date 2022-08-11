@@ -9,14 +9,14 @@ public class Main {
             a++;
         }
         System.out.print("\n");
-        for(int b=10; b>0; b=b-1){
+        for(int b=10; b>0; b--){
 
             System.out.print(b+" ");
         }
 
         //Задание 2
         System.out.print("\n");
-        for(int c = 5; c<=31&&c>=5; c=c+7){
+        for(int c = 5; c<=31; c=c+7){
             System.out.println("Сегодня пятница, "+c+"-е число. Необходимо подготовить отчет.");
         }
 
