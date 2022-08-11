@@ -25,8 +25,7 @@ public class Main {
         int currentYear = 2022;
         int start = currentYear - 200;
         int end = currentYear + 100;
-
-        for(int d = 0; d>=start&&d<=end; d=d+79){
+        for(int d=start; d>=start&&d<=end; d=d+79){
             System.out.println(d+" ");
         }
 //3 Задание не понял, хотелось бы получить понимание и разбор..!
